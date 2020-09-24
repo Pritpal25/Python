@@ -7,7 +7,7 @@ print (type(a), type(b), type(c))
 a = 1+2j
 print(a, "is complex number?", isinstance(a,complex))
 print ("a is of int type int ? ", isinstance(a,int))
-
+print(a.real, a.imag)
 # List operations
 
 a = [2, 1, 5, 7, 'apple'] #elements can be on any type
